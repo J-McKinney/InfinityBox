@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   perspective: 30px;
-  animation: zooming 10s ease-in-out infinite;
+  animation: zooming 8s ease-in-out infinite;
 }
 
 .frame {
@@ -30,6 +30,7 @@
   animation: breathing 3s ease-out infinite;
 }
 
+/* Straight Frames Looking Down The Pipe */
 .frame:nth-child(1) {
   transform: rotate(45deg) translateY(0px) translateZ(0px);
   opacity: 1;
@@ -90,6 +91,68 @@
   opacity: 0.4;
   animation-delay: 2.3s;
 }
+
+/* Twisting Frame Vortex Kind Of Look */
+/* .frame:nth-child(1) {
+  transform: rotate(45deg) translateY(0px) translateZ(0px);
+  opacity: 1;
+  animation-delay: 0.1s;
+}
+.frame:nth-child(2) {
+  transform: rotate(48deg) translateY(50px) translateZ(-20px);
+  opacity: 0.9;
+  animation-delay: 0.3s;
+}
+.frame:nth-child(3) {
+  transform: rotate(51deg) translateY(100px) translateZ(-40px);
+  opacity: 0.85;
+  animation-delay: 0.5s;
+}
+.frame:nth-child(4) {
+  transform: rotate(54deg) translateY(150px) translateZ(-60px);
+  opacity: 0.8;
+  animation-delay: 0.7s;
+}
+.frame:nth-child(5) {
+  transform: rotate(57deg) translateY(200px) translateZ(-80px);
+  opacity: 0.75;
+  animation-delay: 0.9s;
+}
+.frame:nth-child(6) {
+  transform: rotate(60deg) translateY(250px) translateZ(-100px);
+  opacity: 0.7;
+  animation-delay: 1.1s;
+}
+.frame:nth-child(7) {
+  transform: rotate(63deg) translateY(300px) translateZ(-120px);
+  opacity: 0.65;
+  animation-delay: 1.3s;
+}
+.frame:nth-child(8) {
+  transform: rotate(66deg) translateY(350px) translateZ(-140px);
+  opacity: 0.6;
+  animation-delay: 1.5s;
+}
+.frame:nth-child(9) {
+  transform: rotate(69deg) translateY(400px) translateZ(-160px);
+  opacity: 0.55;
+  animation-delay: 1.7s;
+}
+.frame:nth-child(10) {
+  transform: rotate(72deg) translateY(450px) translateZ(-180px);
+  opacity: 0.5;
+  animation-delay: 1.9s;
+}
+.frame:nth-child(11) {
+  transform: rotate(75deg) translateY(500px) translateZ(-200px);
+  opacity: 0.45;
+  animation-delay: 2.1s;
+}
+.frame:nth-child(12) {
+  transform: rotate(78deg) translateY(550px) translateZ(-220px);
+  opacity: 0.4;
+  animation-delay: 2.3s;
+} */
 
 @keyframes breathing {
   0% {
