@@ -16,7 +16,6 @@ class InfinityBox extends Component {
           <div className="frame"></div>
           <div className="frame"></div>
           <div className="frame"></div>
-          {/*<div className="frame"></div>*/}
         </div>
       </div>
     );
