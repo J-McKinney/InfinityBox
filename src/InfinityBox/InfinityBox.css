@@ -7,7 +7,7 @@
 }
 
 .container {
-  padding-top: 420px;
+  padding-top: 380px;
   padding-right: 100px;
   width: 100%;
   height: 100%;
@@ -20,14 +20,14 @@
 }
 
 .frame {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   position: absolute;
   /* border-radius controls the squareness=lower number to circleness=higher number */
   border-radius: 50px;
   border: 5px #087be6 solid;
   box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff,
-    0px 0px 60px #ff00c8, inset 0px 0px 60px #ff00c8;
+    0px 0px 60px #ff002b, inset 0px 0px 60px #ff002b;
   filter: brightness(1.5) contrast(3);
   animation: breathing 3s ease-out infinite;
 }
