@@ -1,3 +1,7 @@
+## Infinity Box
+
+Demo: [Infinity Box](https://j-mckinney.github.io/InfinityBox/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
